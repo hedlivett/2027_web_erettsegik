@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "TS: debug",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "node --import tsx src/main.ts",
+      "cwd": "${workspaceFolder}",
+      "smartStep": true,
+      "skipFiles": ["<node_internals>/**", "**/node_modules/**"]
+    }
+  ]
+}

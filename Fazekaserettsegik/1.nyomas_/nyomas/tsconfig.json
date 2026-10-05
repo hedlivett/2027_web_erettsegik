@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    /* Nyelvi szint és környezet */
+    "target": "ES2022",
+    "lib": ["ES2023"],
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "types": ["node"],
+
+    /* Az importokban a valódi .ts kiterjesztést írjuk, a fordító .js-re cseréli */
+    "allowImportingTsExtensions": true,
+    "rewriteRelativeImportExtensions": true,
+
+    /* Szigorúság – ezért használunk TypeScriptet */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+
+    /* Fordítás: src -> dist (npm run build) */
+    "rootDir": "src",
+    "outDir": "dist",
+    "sourceMap": true,
+
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src"]
+}

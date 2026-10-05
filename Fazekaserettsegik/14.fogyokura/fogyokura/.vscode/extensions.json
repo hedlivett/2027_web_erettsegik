@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "yoavbls.pretty-ts-errors",
+    "usernamehw.errorlens",
+    "editorconfig.editorconfig",
+    "christian-kohler.path-intellisense",
+    "tomoki1207.pdf",
+    "humao.rest-client",
+    "ms-vscode.notepadplusplus-keybindings"
+  ]
+}
